@@ -1,7 +1,19 @@
-# homework-front-office
+#Hey
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+##Some informations about this repo
+
+This project was born thanks to JCHeron ! 
+
+Sorry for my english, im French not bumb
+
+The goal of this project is approach step by step the JS Framework Ember.
+Maybe it can be useful for you.
+
+Happy Coding ! :D
+
+A.M
+
+# homework-front-office
 
 ## Prerequisites
 
