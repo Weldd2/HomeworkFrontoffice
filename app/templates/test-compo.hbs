@@ -1,0 +1,7 @@
+{{page-title "TestCompo"}}
+{{#each @model as |user|}}
+  <TitleDesc @title={{user.nom}}>
+    <h3>{{user.desc}}</h3>
+  </TitleDesc>
+{{/each}}
+{{outlet}}

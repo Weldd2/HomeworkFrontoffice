@@ -11,4 +11,5 @@ Router.map(function () {
   this.route('client', function () {
     this.route('details');
   });
+  this.route('test-compo');
 });
