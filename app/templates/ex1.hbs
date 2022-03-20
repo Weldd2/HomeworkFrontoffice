@@ -1,0 +1,22 @@
+{{page-title "Ex1"}}
+
+<div class="card" style="margin: 25px">
+  <div class="card-header">
+   Ex 1: Note application
+  </div>
+  <div class="card-body">
+    <Textarea maxlength="{{this.MAX}}" placeholder="Entrez votre texte" class="form-control" @value={{this.content}}/>
+  </div>
+  <div style="width: 10%; margin: 10px">
+    <button {{action "save" this.content}} class="btn btn-primary"> Enregistrer</button>
+    <button {{action "clear"}} class="btn btn-primary">Clear</button>
+  </div>
+
+  <div class="card-footer {{this.style}}">
+    <p>Il vous reste {{this.size}} caractères</p>
+  </div>
+</div>
+
+
+
+{{outlet}}
